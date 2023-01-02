@@ -1,0 +1,25 @@
+.IntentCardContainer{
+  grid-template-columns: repeat(4, 1fr);
+  display: grid;
+  grid-gap: 1rem;
+  padding: 1rem;
+  max-width: 80%;
+  margin: 0 auto;
+  font-family: var(--font-sans);
+}
+
+.bold-class {
+  font-weight: 600;;
+}
+
+header{
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-size: 40px;
+  -webkit-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+  padding: 20px 0px 20px 0px;
+}

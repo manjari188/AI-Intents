@@ -1,0 +1,110 @@
+
+  .card-container {
+    background-color: #fff;
+    text-align: center;
+    color: #000;
+    position: relative;
+    overflow: hidden;
+    height: 300px;
+    border: 1px solid #b1b1b1;
+    border-radius: 2px;
+    box-shadow: 2px 2px 2px #b1b1b1;
+    cursor: pointer;
+  }
+  
+  .card-container .overlay-top {
+    position:absolute;
+    width:100%;
+    height:88%;
+    top:-109px;
+    left:0;
+    background-color:#4a4a4a;
+    transition:all .2s ease-in;
+    opacity:0;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .card-head{
+    background: #b1b1b1;
+    border-bottom: 1px solid #b1b1b1;
+    font-weight: 600;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    margin-top: 0;
+  }
+
+  .exp-card-head {
+    background: #202020;
+    border-bottom: 1px solid #202020;
+    font-weight: 600;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    margin-top: 0;
+  }
+  
+  .card-container .overlay-top span {
+    letter-spacing:-2px
+  }
+
+  .card-container:hover .overlay-top {
+    top:0;
+    opacity:1
+  }
+
+  .intent-text {
+    bottom: 0;
+    color: #b1b1b1;
+    font-weight: 600;
+    left: 0;
+    position: absolute;
+    padding: 0.25rem;
+  }
+
+  .expressions {
+    min-height: 35%;
+    margin-top: -15px;
+    padding: 0.25rem;
+  }
+
+  .reply {
+    padding: 0.25rem;
+  }
+
+  .sub-heading-card {
+    background: #edebeb;
+    margin-bottom: 0.5rem;
+    padding: 3px;
+  }
+
+  .svgAdd {
+    height: 30px;
+    right: 5px;
+    position: absolute;
+    bottom: 5px;
+  }
+
+  .svgRemove {
+    height: 50px;
+    right: -5px;
+    position: absolute;
+    bottom: -5px;
+  }
+
+  .svgAdd:hover {
+    background-color: #008000d0;
+    border-radius: 20px;
+  }
+
+  .added-icon {
+    height: 25px;
+    right: 2px;
+    position: absolute;
+    top: 2px;
+  }
+
+//   .overlay-top{
+//       .conversation-sample{
+//         padding: 70px 20px 0px 20px;
+//       }
+//   }
